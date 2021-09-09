@@ -1,0 +1,13 @@
+#Employee table
+insert into employee(id, employee_name, employee_phno, employee_salary) 
+values( 1, 'peter', 989898989, 30000);
+insert into employee(id, employee_name, employee_phno, employee_salary) 
+values( 2, 'john', 123456789, 20000);
+insert into employee(id, employee_name, employee_phno, employee_salary) 
+values( 3, 'tom', 1234512345, 15000);
+
+#Address table
+insert into address(id, city, street, type, zipcode, employee_id) 
+values(1, 'Hyd', 'main','permanent', 123456, 2 );
+insert into address(id, city, street, type, zipcode, employee_id) 
+values(2, 'delhi', 'xyx street','current', 121212, 1 );
