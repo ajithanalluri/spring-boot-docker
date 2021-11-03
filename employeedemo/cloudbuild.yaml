@@ -13,3 +13,4 @@ steps:
       path: '/persistant_volume'
     entrypoint: mvn
     args: ["package", "-Dmaven.test.skip=true"]
+    dir: 'employeedemo'
