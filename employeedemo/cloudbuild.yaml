@@ -3,7 +3,7 @@ steps:
   #- name:  'gcr.io/cloud-builders/mvn'
     entrypoint: mvn
     volumes: 
-     -name: 'vol1'
+    -name: 'vol1'
       path: '/persistant_volume'
     args: ["test"]
     dir: 'employeedemo'
